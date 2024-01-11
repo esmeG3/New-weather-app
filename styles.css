@@ -1,3 +1,37 @@
 body {
- font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
+  background-color: rgba(49, 203, 54, 0.1);
+  color: #232904;
+}
+
+.main-app {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 75%;
+  padding: 12px;
+}
+
+.form-search-input {
+border: 0px;
+background-color: rgba(49, 203, 54, 0.05);
+}
+
+header {
+margin: 0 5px;
+}
+
+h2 {
+  display: inline;
+  font-size: 18px;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
 }
