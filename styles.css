@@ -1,23 +1,24 @@
 body {
   font-family: "Noto Serif JP", serif;
-  background-color: rgba(49, 203, 54, 0.1);
+  background-color: #F1F1F1;
   color: #232904;
 }
 
 .main-app {
   margin: 0 auto;
   margin-top: 30px;
-  max-width: 75%;
-  padding: 12px;
+  max-width: 600px;
+  padding: 5px 10px;
 }
 
 .form-search-input {
-border: 0px;
-background-color: rgba(49, 203, 54, 0.05);
+  border: 0px;
+  background-color: #F1F1F1;
 }
 
+
 header {
-margin: 0 5px;
+  margin: 0 5px;
 }
 
 h2 {
@@ -27,11 +28,14 @@ h2 {
 
 main {
   background-color: white;
-  padding: 10px;
   border-radius: 20px;
+  margin: 5px;
+  padding: 5px;
+box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 footer {
   text-align: center;
   font-size: 14px;
+  padding-top: 30px;
 }
