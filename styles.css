@@ -28,6 +28,42 @@ border: 0px;
 margin-left: 10px;
 background-color: #88bbd6;
 color: #F1F1F1;
+box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
+}
+
+.today-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-city {
+  font-size: 48px;
+  padding: 10px 0px 0px 20px;
+  margin: 0 auto;
+}
+
+.day-of-week {
+  margin: 0 auto; 
+  padding: 0px 0px 10px 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.temperature-today {
+  margin: 0 auto;
+  margin-left: 100px;
+  font-size: 58px;
+  font-weight: 400;
+}
+
+.weather-details {
+   padding: 0px 0px 0px 20px;
+   font-size: 14px;  
+   font-weight: bold;
+}
+.details {
+  color:#88bbd6;
+
 }
 
 a {
