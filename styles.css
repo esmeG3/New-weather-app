@@ -23,12 +23,19 @@ body {
 padding: 12px;
 border-radius: 12px;
 font-size: 14px;
-padding: 8px 18px;
+padding: 8px 20px;
 border: 0px;
-margin-left: 10px;
+margin: 0 10px 5px 0;
 background-color: #88bbd6;
 color: #F1F1F1;
 box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
+}
+
+.form-submit-button:hover {
+  background-color: #F1F1F1;
+  color:#88bbd6;
+  transition: ease-in-out;
+  cursor: pointer;
 }
 
 .today-section {
@@ -89,7 +96,7 @@ main {
   border-radius: 20px;
   margin: 5px;
   padding: 5px;
-  box-shadow: 0 20px 30px rgba(65, 50, 100, 0.2);
+  box-shadow: 10px 20px 30px rgba(65, 50, 100, 0.2);
 }
 
 footer {
