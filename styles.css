@@ -73,16 +73,19 @@ box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
   font-style: italic;
   font-weight: 100;
 }
-#description {
+.description {
   font-size: 20px;
   font-weight: 400;
   font-style: italic;
-  padding: 20px;
+  margin-left: 35px;
+
 }
 
 .weather-emoji {
 text-align: center;
-font-size: 88px;
+height:170px;
+width: 170px;
+
 }
 
 a {

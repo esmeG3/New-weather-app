@@ -8,6 +8,9 @@ let windSpeedElement = document.querySelector("#wind-speed");
 let timeElement = document.querySelector("#time");
 let date = new Date (responce.data.time * 1000);
 
+let iconElement = document.querySelector("#weather-icon");
+
+iconElement.innerHTML = `<img src="${responce.data.condition.icon_url}" class = "weather-emoji" />`;
 timeElement.innerHTML = formatDate(date);
 cityWeatherElement.innerHTML = responce.data.city;
 descriptionElement.innerHTML = responce.data.condition.description;
