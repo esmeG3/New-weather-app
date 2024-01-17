@@ -12,15 +12,21 @@
 <body>
     <div class="main-app">
     <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
 <h2>What is the weather like in</h2>
-<input type="search" placeholder="New York?" class="form-search-input" required />
+<input
+ type="search" 
+ placeholder="New York?" 
+ class="form-search-input" 
+ id="form-search-input" 
+ required 
+ />
 <input type="submit" value="Search" class="form-submit-button" />
    </form> </header>
     <main>
 <div class="today-section">
     <div>
-        <h1 class ="weather-city">
+        <h1 class ="weather-city" id="city-weather">
             New York
         </h1>
         <p class = "day-of-week">Today</p>
