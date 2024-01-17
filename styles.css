@@ -72,7 +72,12 @@ box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
   color:#88bbd6;
   font-style: italic;
   font-weight: 100;
-
+}
+#description {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 20px;
 }
 
 .weather-emoji {
