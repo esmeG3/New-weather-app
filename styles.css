@@ -43,6 +43,10 @@ box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
   justify-content: space-between;
 }
 
+.left-side-app {
+  max-width: 50%;
+}
+
 .weather-city {
   font-size: 48px;
   padding: 10px 0px 0px 20px;
@@ -77,15 +81,16 @@ box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
   font-size: 20px;
   font-weight: 400;
   font-style: italic;
+  text-align: center;
   margin-left: 35px;
 
 }
 
 .weather-emoji {
 text-align: center;
-height:170px;
-width: 170px;
-
+height:150px;
+width: 150px;
+padding: 0 10px;
 }
 
 a {
