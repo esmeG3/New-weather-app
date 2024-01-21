@@ -1,6 +1,6 @@
 body {
   font-family: "Noto Serif JP", serif;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   color: #232904;
 }
 
@@ -13,27 +13,27 @@ body {
 
 .form-search-input {
   border: 0px;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   width: 42%;
   padding: 10px;
   font-size: 16px;
 }
 
 .form-submit-button {
-padding: 12px;
-border-radius: 12px;
-font-size: 14px;
-padding: 8px 20px;
-border: 0px;
-margin: 0 10px 5px 0;
-background-color: #88bbd6;
-color: #F1F1F1;
-box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  padding: 8px 20px;
+  border: 0px;
+  margin: 0 10px 5px 0;
+  background-color: #88bbd6;
+  color: #f1f1f1;
+  box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
 }
 
 .form-submit-button:hover {
-  background-color: #F1F1F1;
-  color:#88bbd6;
+  background-color: #f1f1f1;
+  color: #88bbd6;
   transition: ease-in-out;
   cursor: pointer;
 }
@@ -54,7 +54,7 @@ box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
 }
 
 .day-of-week {
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 0px 0px 10px 20px;
   font-weight: 600;
   font-size: 18px;
@@ -68,12 +68,12 @@ box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
 }
 
 .weather-details {
-   padding: 0px 0px 0px 20px;
-   font-size: 14px;  
-   font-weight: bold;
+  padding: 0px 0px 0px 20px;
+  font-size: 14px;
+  font-weight: bold;
 }
 .details {
-  color:#88bbd6;
+  color: #88bbd6;
   font-style: italic;
   font-weight: 100;
 }
@@ -83,14 +83,13 @@ box-shadow: 2px 5px 5px rgba(65, 50, 100, 0.4);
   font-style: italic;
   text-align: center;
   margin-left: 35px;
-
 }
 
 .weather-emoji {
-text-align: center;
-height:150px;
-width: 150px;
-padding: 0 10px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  padding: 0 10px;
 }
 
 a {
@@ -109,7 +108,31 @@ main {
   border-radius: 20px;
   margin: 5px;
   padding: 5px;
-  box-shadow: 10px 20px 30px rgba(65, 50, 100, 0.2);
+  box-shadow: 10px 0px 30px rgba(65, 50, 100, 0.2);
+}
+
+.weather-forcast {
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+  max-width: 75px;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px rgba(65, 50, 100, 0.2);
+}
+
+.weather-forcast-date {
+  font-size: 14px;
+  font-weight: 500;
+}
+.forcast-temperature-high {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.forcast-temperature-low {
+  font-size: 15px;
+  color: #88bbd6;
 }
 
 footer {
