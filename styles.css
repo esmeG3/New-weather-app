@@ -111,12 +111,11 @@ main {
   box-shadow: 10px 0px 30px rgba(65, 50, 100, 0.2);
 }
 
-.weather-forcast {
-  text-align: center;
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
   margin-top: 20px;
   background-color: white;
-  max-width: 75px;
-  margin: 15px;
   border-radius: 20px;
   box-shadow: 10px 10px 30px rgba(65, 50, 100, 0.2);
 }
