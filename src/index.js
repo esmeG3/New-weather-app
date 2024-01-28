@@ -62,3 +62,21 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", displayCityName);
 
 searchCity("Sydney");
+
+let forecast = document.querySelector("#forecast");
+forecast.innerHTML = `
+<div class ="row">
+        <div class ="col-2">
+            <div class ="weather-forcast-date"> 
+                Thurs
+             </div>
+                 <img 
+                 src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png" 
+                width="50"
+                 />
+           <div>
+            <span class="forcast-temperature-high">10</span> <span class="forcast-temperature-low" >5</span>
+        </div> 
+        </div>
+    </div>
+    `;
