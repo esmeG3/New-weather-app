@@ -46,7 +46,7 @@ function formatDate(date) {
 
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
-  let days = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
 
   return days[date.getDay()];
 }
